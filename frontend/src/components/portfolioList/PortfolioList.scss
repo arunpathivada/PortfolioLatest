@@ -1,0 +1,20 @@
+ul{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    li{
+        display: flex;
+        font-size: 16px;
+        margin-bottom:  50px;
+        margin-right: 40px;
+        padding: 10px ;
+        border-radius: 5px;
+        cursor: pointer;
+        &.active{
+            background-color: rgb(33, 33, 126);
+            color: white;
+
+        }
+    }
+}
